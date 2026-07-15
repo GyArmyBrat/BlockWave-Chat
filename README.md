@@ -1,21 +1,36 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 🚀 BlockWave Chat
 
-# Run and deploy your AI Studio app
+A decentralized blockchain-based secure messaging application built with modern cryptography, blockchain technology, and decentralized storage.
 
-This contains everything you need to run your app locally.
+## Features
+- 🔐 Wallet Authentication
+- 🔒 End-to-End Encryption
+- ⛓️ Polygon Blockchain
+- 🌐 IPFS Storage
+- 💬 One-to-One Chat
+- 👥 Group Chat
+- 📁 Secure File Sharing
+- 📞 Voice & Video Calls
+- 🤖 AI-powered Smart Features
+- 📱 Modern Material UI
 
-View your app in AI Studio: https://ai.studio/apps/5a211889-c5bf-4f0a-8cb6-ad2539a121af
+## Tech Stack
+- Kotlin (Android)
+- Jetpack Compose
+- Firebase
+- Polygon
+- Solidity
+- IPFS
+- WalletConnect
+- MetaMask
 
-## Run Locally
+## Installation
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+1. Clone the repository
+2. Open in Android Studio
+3. Add your API keys
+4. Build and Run
 
+## License
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+MIT License
