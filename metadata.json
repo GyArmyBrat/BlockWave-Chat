@@ -1,0 +1,6 @@
+{
+  "name": "BlockWave Chat",
+  "description": "A secure, decentralized blockchain-based E2EE chat application with AI assistance and local blockchain/IPFS ledger.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
